@@ -8,7 +8,7 @@ Also, For complete updated documentation of the HABB POS please visit online [do
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within HABB POS, please send an e-mail to support at thewebfosters@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within HABB POS, please send an e-mail to support at habblanka@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
