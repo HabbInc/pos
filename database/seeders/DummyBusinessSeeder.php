@@ -24,9 +24,9 @@ class DummyBusinessSeeder extends Seeder
 
         $password = Hash::make('123456');
 
-        // $timezone = 'America/Phoenix'
-        // config(['app.timezone' => $timezone]);
-        // date_default_timezone_set($timezone);
+        $timezone = 'America/Phoenix'
+        config(['app.timezone' => $timezone]);
+        date_default_timezone_set($timezone);
 
         $today = \Carbon::now()->format('Y-m-d H:i:s');
         $yesterday = \Carbon::now()->subDays(2)->format('Y-m-d H:i:s');
@@ -1065,7 +1065,7 @@ class DummyBusinessSeeder extends Seeder
             ['key' => 'default_business_active_status', 'value' => '1'],
             ['key' => 'superadmin_version', 'value' => config('superadmin.module_version')],
             ['key' => 'app_currency_id', 'value' => '2'],
-            ['key' => 'invoice_business_name', 'value' => 'Ultimate POS'],
+            ['key' => 'invoice_business_name', 'value' => 'HABB POS'],
             ['key' => 'invoice_business_landmark', 'value' => 'Linking Street'],
             ['key' => 'invoice_business_zip', 'value' => '85001'],
             ['key' => 'invoice_business_state', 'value' => 'Arizona'],
